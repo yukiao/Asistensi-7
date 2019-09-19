@@ -8,7 +8,7 @@ class Tugas02 {
             System.out.println("2. Mencari Volume Bangun Ruang");
             System.out.print("Input angka sesuai dengan menu yang diinginkan : ");
             int bangun = sc.nextInt();
-          
+
             switch(bangun){
                 case 1 :
                 System.out.println("1. Persegi");
@@ -54,12 +54,6 @@ class Tugas02 {
                     luas = Math.PI*Math.pow(jariJari, 2);
                     System.out.printf("Luas persegi panjang = %.1f", luas);
                     break;
-
-                    case 5 :
-                    System.out.println("Input alas");
-
-
-
                 }
             }
     }
